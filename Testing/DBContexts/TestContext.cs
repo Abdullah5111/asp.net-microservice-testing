@@ -9,6 +9,7 @@ namespace Testing.DBContexts
         {
         }
         public DbSet<Test> Tests { get; set; }
+        public DbSet<Test2> Tests2 { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

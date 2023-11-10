@@ -16,6 +16,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddTransient<ITestRepository, TestRepository>();
+builder.Services.AddTransient<ITest2Repository, Test2Repository>();
 
 var app = builder.Build();
 
